@@ -1,0 +1,14 @@
+{
+  "jumlah_pelanggan_pernah_komplain": 1604,
+  "churn_rate_komplain_persen": 31.67,
+  "churn_rate_tanpa_komplain_persen": 10.93,
+  "skenario_batas_atas": {
+    "asumsi": "Penanganan komplain cepat dan tuntas menekan churn rate kelompok komplain sampai sama dengan kelompok tanpa komplain.",
+    "perkiraan_pelanggan_terselamatkan": 333
+  },
+  "skenario_moderat": {
+    "asumsi": "Penanganan komplain yang lebih baik hanya menutup separuh selisih churn rate.",
+    "perkiraan_pelanggan_terselamatkan": 166
+  },
+  "catatan": "Simulasi eksploratif berbasis selisih churn rate observasional, bukan hasil eksperimen. Angka ini batas perkiraan kasar untuk prioritas tindakan, bukan janji hasil."
+}

@@ -1,0 +1,20 @@
+{
+  "Tinggi": {
+    "jumlah_pelanggan": 702,
+    "churn_aktual": 691,
+    "churn_rate_aktual_persen": 98.43
+  },
+  "Sedang": {
+    "jumlah_pelanggan": 305,
+    "churn_aktual": 197,
+    "churn_rate_aktual_persen": 64.59
+  },
+  "Rendah": {
+    "jumlah_pelanggan": 4623,
+    "churn_aktual": 60,
+    "churn_rate_aktual_persen": 1.3
+  },
+  "porsi_churn_di_segmen_tinggi_persen": 72.89,
+  "porsi_churn_di_tinggi_sedang_persen": 93.67,
+  "metode_probabilitas": "Out-of-fold 5 fold (cross_val_predict) dengan model terbaik"
+}

@@ -1,0 +1,78 @@
+{
+  "total_pelanggan": 5630,
+  "jumlah_churn": 948,
+  "churn_rate_persen": 16.84,
+  "churn_tanpa_komplain_persen": 10.93,
+  "churn_dengan_komplain_persen": 31.67,
+  "jumlah_pernah_komplain": 1604,
+  "tenure_rata2_bertahan_bulan": 11.4,
+  "tenure_rata2_churn_bulan": 3.86,
+  "churn_rate_per_citytier": [
+    {
+      "CityTier": 1,
+      "churn_rate_persen": 14.51,
+      "jumlah_pelanggan": 3666,
+      "jumlah_churn": 532
+    },
+    {
+      "CityTier": 2,
+      "churn_rate_persen": 19.83,
+      "jumlah_pelanggan": 242,
+      "jumlah_churn": 48
+    },
+    {
+      "CityTier": 3,
+      "churn_rate_persen": 21.37,
+      "jumlah_pelanggan": 1722,
+      "jumlah_churn": 368
+    }
+  ],
+  "churn_rate_per_metode_bayar": [
+    {
+      "PreferredPaymentMode": "Cash on Delivery",
+      "churn_rate_persen": 24.9,
+      "jumlah_pelanggan": 514,
+      "jumlah_churn": 128
+    },
+    {
+      "PreferredPaymentMode": "Credit Card",
+      "churn_rate_persen": 14.21,
+      "jumlah_pelanggan": 1774,
+      "jumlah_churn": 252
+    },
+    {
+      "PreferredPaymentMode": "Debit Card",
+      "churn_rate_persen": 15.38,
+      "jumlah_pelanggan": 2314,
+      "jumlah_churn": 356
+    },
+    {
+      "PreferredPaymentMode": "E wallet",
+      "churn_rate_persen": 22.8,
+      "jumlah_pelanggan": 614,
+      "jumlah_churn": 140
+    },
+    {
+      "PreferredPaymentMode": "UPI",
+      "churn_rate_persen": 17.39,
+      "jumlah_pelanggan": 414,
+      "jumlah_churn": 72
+    }
+  ],
+  "kepuasan_rata2_bertahan": 3.0,
+  "kepuasan_rata2_churn": 3.39,
+  "korelasi_terkuat_dengan_churn": {
+    "Tenure": -0.338,
+    "Complain": 0.25,
+    "DaySinceLastOrder": -0.156,
+    "CashbackAmount": -0.154,
+    "NumberOfDeviceRegistered": 0.108,
+    "SatisfactionScore": 0.105
+  },
+  "cashback_rata2_bertahan": 180.6,
+  "cashback_rata2_churn": 160.4,
+  "kupon_rata2_bertahan": 1.72,
+  "kupon_rata2_churn": 1.71,
+  "hari_sejak_order_terakhir_bertahan": 4.7,
+  "hari_sejak_order_terakhir_churn": 3.2
+}

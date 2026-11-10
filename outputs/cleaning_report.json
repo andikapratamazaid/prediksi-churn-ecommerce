@@ -1,0 +1,18 @@
+{
+  "baris_mentah": 5630,
+  "kolom": 20,
+  "outlier_warehousetohome_diperbaiki": 2,
+  "missing_sebelum": {
+    "Tenure": 264,
+    "WarehouseToHome": 251,
+    "HourSpendOnApp": 255,
+    "OrderAmountHikeFromlastYear": 265,
+    "CouponUsed": 256,
+    "OrderCount": 258,
+    "DaySinceLastOrder": 307
+  },
+  "missing_sesudah": 0,
+  "baris_bersih": 5630,
+  "jumlah_churn": 948,
+  "churn_rate_persen": 16.84
+}

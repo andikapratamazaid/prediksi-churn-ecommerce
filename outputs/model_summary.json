@@ -1,0 +1,24 @@
+{
+  "model_terbaik": "Random Forest",
+  "kriteria_pemilihan": "PR-AUC tertinggi pada data uji (kelas churn minoritas, 16,8 persen)",
+  "ukuran_train": 4504,
+  "ukuran_test": 1126,
+  "metrik_model_terbaik": {
+    "roc_auc": 0.9987,
+    "pr_auc": 0.9939,
+    "precision": 0.994,
+    "recall": 0.8684,
+    "f1": 0.927,
+    "accuracy": 0.9769
+  },
+  "fitur_terpenting": [
+    "Tenure",
+    "Complain",
+    "PreferedOrderCat",
+    "MaritalStatus",
+    "NumberOfAddress",
+    "DaySinceLastOrder",
+    "SatisfactionScore",
+    "PreferredPaymentMode"
+  ]
+}
